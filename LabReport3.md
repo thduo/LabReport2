@@ -30,8 +30,11 @@ Bug: Reversed method implementation
 
 * The symptom, as the output of running the tests (provide it as a screenshot of running JUnit with at least the two inputs above):
 <u> The first output is: (failure)
+
 ![Image](output1.png)
+
 <u> The second output is: (success)
+
 ![Image](output2.png)
 
 * The bug before fixing: 
