@@ -80,6 +80,7 @@ grep -i "error" ./technical/911report/*.txt
 This will search for the word "error" in all files that end with`.txt`. Due to limited room for terminal, I will show half of the files that contain "error" in the terminal
 ![Image](grepierror.png)
 <u> 2. The second command line option: `-r` 
+
 It is a command line that makes grep search recursively through directories. For example, 
 when using 
 ```
@@ -95,6 +96,7 @@ This command will find references for "buildings" in all files ending with .txt 
 ![Image](greprbuildingsall.png)
 
 <u> 3. The third command line option: `-v` 
+
 It is a command line that inverts the match and only show lines unmatching with the given lines. In this case, I use 
 ```
 grep -v "results" ./technical/911report/chapter-12.txt
@@ -110,6 +112,7 @@ This command is executed with a purpose of excluding lines with "emergency". Thi
 ![Image](grepvemergency.png)
 
 <u> 4. The third command line option: `-l` 
+
 It lists the names of files with matches instead of the matching text itself. The first example is using 
 ```
 grep -l "Standard" ./technical/911report/*.txt
