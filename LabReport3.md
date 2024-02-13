@@ -91,7 +91,6 @@ This command will find references for "buildings" in all files ending with .txt 
 <u> 3. The third command line option: `-v` is a command line that inverts the match and only show lines unmatching with the given lines. In this case, I use 
 ```
 grep -v "results" ./technical/911report/chapter-12.txt
-
 ```
 This command will show all lines in chapter-12.txt file within the `./technical/911report` directory that do not contain the word "results". It is beneficial to filter out successful operations to focus on potential bugs. 
 ![Image](grepvresults.png)
@@ -99,7 +98,6 @@ This command will show all lines in chapter-12.txt file within the `./technical/
 In another case, I can use 
 ```
 grep -v "emergency" ./technical/911report/chapter-12.txt
-
 ```
 This command is executed with a purpose of excluding lines with "emergency". This is when we don't want to find lines mentioning the word "emergency", thus helping to clean up views when searching for current functionality. 
 ![Image](grepvemergency.png)
@@ -107,7 +105,6 @@ This command is executed with a purpose of excluding lines with "emergency". Thi
 <u> 4. The third command line option: `-l` that lists the names of files with matches instead of the matching text itself. The first example is using 
 ```
 grep -l "Standard" ./technical/911report/*.txt
-
 ```
 This command will list all the files that contain the word "Standard" instead of listing all the texts itself in each chapter. Image attached below for more illustration. 
 ![Image](greplStandard.png)
@@ -115,12 +112,11 @@ This command will list all the files that contain the word "Standard" instead of
 In another case, I can use 
 ```
 grep -l "error" ./technical/911report/*.txt
-
 ```
 This command will find all the files containing "error" word. This command is effective in finding all the chapters or files with errors when we don't want to see all the texts in each file, thus creating a good organization. 
 ![Image](greplerror.png)
 
-# Citation: ChatGPT and Linux terminal with the input of "command lines utilities for `grep`
+* Citation: ChatGPT and Linux terminal with the input of "command lines utilities for `grep`
 
 
 
