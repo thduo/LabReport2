@@ -116,7 +116,7 @@ grep -l "error" ./technical/911report/*.txt
 This command will find all the files containing "error" word. This command is effective in finding all the chapters or files with errors when we don't want to see all the texts in each file, thus creating a good organization. 
 ![Image](greplerror.png)
 
-* Citation: ChatGPT and Linux terminal with the input of "command lines utilities for `grep`
+* Citation: ChatGPT and Linux terminal with the input of "command lines utilities" for `grep`
 
 
 
