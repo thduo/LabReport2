@@ -62,7 +62,8 @@ newArray.
 
 # <u> Task 2:
 I choose grep command:
-<u> * 1. The first command line option: -i is a command line that ignores all the distinctions or difference when searching for words in a specific 
+<u> * 
+1.The first command line option: -i is a command line that ignores all the distinctions or difference when searching for words in a specific 
 text files. 
 For example, when searching `grep -i "abstract" ./technical/chapter-8.txt`, it will search for the word abstract regardless of uppercase or lowercase
 of the word. It will ignore case distinction to help the searching purpose faster. Additionally, this method is more effective in finding 
