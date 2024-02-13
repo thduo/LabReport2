@@ -64,7 +64,7 @@ returned the original array which the caller will receive the original, unchange
 # <u> Task 2:
 I choose grep command:
 
-<u> 1.The first command line option: `-i` \
+<u> 1.The first command line option: `-i` 
 
 It is a command line that ignores all the distinctions or difference when searching for words in a specific text files. For example, when searching 
 
@@ -79,7 +79,7 @@ grep -i "error" ./technical/911report/*.txt
 ```
 This will search for the word "error" in all files that end with`.txt`. Due to limited room for terminal, I will show half of the files that contain "error" in the terminal
 ![Image](grepierror.png)
-<u> 2. The second command line option: `-r` \
+<u> 2. The second command line option: `-r` 
 It is a command line that makes grep search recursively through directories. For example, 
 when using 
 ```
@@ -94,7 +94,7 @@ grep -r "buildings" ./technical/911report/*.txt
 This command will find references for "buildings" in all files ending with .txt with image attached below. 
 ![Image](greprbuildingsall.png)
 
-<u> 3. The third command line option: `-v` \
+<u> 3. The third command line option: `-v` 
 It is a command line that inverts the match and only show lines unmatching with the given lines. In this case, I use 
 ```
 grep -v "results" ./technical/911report/chapter-12.txt
@@ -109,7 +109,7 @@ grep -v "emergency" ./technical/911report/chapter-12.txt
 This command is executed with a purpose of excluding lines with "emergency". This is when we don't want to find lines mentioning the word "emergency", thus helping to clean up views when searching for current functionality. 
 ![Image](grepvemergency.png)
 
-<u> 4. The third command line option: `-l` \
+<u> 4. The third command line option: `-l` 
 It lists the names of files with matches instead of the matching text itself. The first example is using 
 ```
 grep -l "Standard" ./technical/911report/*.txt
