@@ -2,7 +2,7 @@
 # Name: Duong Ngo
 # Professor: Joe Gibss Politz
 
-* <u> Task 1:
+# <u> Task 1:
 Bug: Reversed method implementation
 * A failure-inducing input:
 
@@ -60,7 +60,7 @@ returned the original array which the caller will receive the original, unchange
 here is to return a new array with reversed order, not the original one. Therefore, instead of returning arr, I changed it to return 
 newArray. 
 
-* <u> Task 2:
+# <u> Task 2:
 I choose grep command:
 <u> * 1. The first command line option: -i is a command line that ignores all the distinctions or difference when searching for words in a specific 
 text files. 
